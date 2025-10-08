@@ -48,3 +48,6 @@ for (int index = 0; index < storyWords.GetLength(0); index++)
     }
     else newStory = newStory + " " + storyWords[index];
 }
+Console.Clear();
+Console.WriteLine("Here's your amazing Mad Lib! What a work of art!");
+Console.Write($"\n{newStory}");
